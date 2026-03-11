@@ -142,7 +142,7 @@ export default function ProductPage() {
 
             {product.featureBullets.length > 0 && (
               <Card>
-                <CardContent className="pt-6">
+                <CardContent>
                   <h2 className="text-lg font-semibold mb-3">Features</h2>
                   <ul className="space-y-2">
                     {product.featureBullets.map((feature, idx) => (
